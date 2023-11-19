@@ -7,27 +7,8 @@
   box-sizing: border-box;
 }
 
-.container {
-  min-height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-  /* background-color: red; */
-}
-
-.logo {
-  width: 55px;
-  /* margin-right: 10px; */
-}
-
-.chip {
-  width: 60px;
-}
-
 body {
-  background-color: #3b3e3f;
-  /* background-color: #e4f2fe; */
+  background-color: #e4f2fe;
   color: #fff;
 }
 
@@ -39,12 +20,7 @@ body {
   position: relative;
 }
 
-.masterCard {
-  position: relative;
-  right: 35px;
-}
-
-.container > div {
+.card {
   background-image: url("/master-bg.png");
   background-size: cover;
   padding: 20px;
@@ -59,8 +35,17 @@ body {
   justify-content: space-between;
 }
 
-h4 {
-  color: #fff;
+.logo {
+  width: 55px;
+}
+
+.chip {
+  width: 60px;
+}
+
+.masterCard {
+  position: relative;
+  right: 35px;
 }
 
 .logo-header {
@@ -101,9 +86,4 @@ h4 {
   font-size: 12px;
   margin-right: 24px;
   margin-bottom: 15px;
-}
-
-.vd {
-  position: relative;
-  top: 60px;
 }
