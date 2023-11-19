@@ -3,10 +3,10 @@ import "./mastercard.css";
 const Counter = () => {
   return (
     <>
-      <div className="">
-        <div className="">
+      <div>
+        <div>
           <div className="container">
-            <div className="">
+            <div>
               <div className="header">
                 <img src="./master-logo.png" className="logo" />
                 <h4 className="masterCard">Kaego's Card</h4>
