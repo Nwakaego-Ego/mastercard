@@ -34,9 +34,9 @@
 // export default Counter;
 
 import React from "react";
-import "./Counter.css";
+import "./mastercard.css";
 
-const Counter = () => {
+const Mastercard = () => {
   return (
     <div className="container">
       <div className="card">
@@ -67,4 +67,4 @@ const Counter = () => {
   );
 };
 
-export default Counter;
+export default Mastercard;
