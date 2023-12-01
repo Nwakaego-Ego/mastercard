@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 import "./mastercard.css";
 
 const Mastercard = () => {
@@ -7,14 +8,35 @@ const Mastercard = () => {
       <div className="card">
         <div className="header">
           <div className="logo-header">
-            <img
+            {/* <img
               src="./master-logo.png"
               className="logo"
               alt="Mastercard Logo"
+            /> */}
+            <Image
+              src="/master-logo.png"
+              alt="master logo"
+              width="55"
+              height="0"
+              className="logo"
             />
+
             <h4 className="masterCard">Kaego's Card</h4>
           </div>
-          <img src="./master-chip.png" className="chip" alt="Chip" />
+          <Image
+            src="/master-chip.png"
+            className="chip"
+            alt="Chip"
+            width="60"
+            height="0"
+          />
+          {/* <img
+            src="./master-chip.png"
+            className="chip"
+            alt="Chip"
+            width="0"
+            height="0"
+          /> */}
         </div>
         <div className="card-details">
           <div className="card-valid">
