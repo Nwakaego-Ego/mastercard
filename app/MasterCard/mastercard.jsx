@@ -8,11 +8,6 @@ const Mastercard = () => {
       <div className="card">
         <div className="header">
           <div className="logo-header">
-            {/* <img
-              src="./master-logo.png"
-              className="logo"
-              alt="Mastercard Logo"
-            /> */}
             <Image
               src="/master-logo.png"
               alt="master logo"
@@ -21,7 +16,8 @@ const Mastercard = () => {
               className="logo"
             />
 
-            <h4 className="masterCard">Kaego's Card</h4>
+            {/* <h4 className="masterCard">Kaego's Card</h4> */}
+            <h4 className="masterCard">Kaego&apos;s Card</h4>
           </div>
           <Image
             src="/master-chip.png"
@@ -30,13 +26,6 @@ const Mastercard = () => {
             width="60"
             height="0"
           />
-          {/* <img
-            src="./master-chip.png"
-            className="chip"
-            alt="Chip"
-            width="0"
-            height="0"
-          /> */}
         </div>
         <div className="card-details">
           <div className="card-valid">
